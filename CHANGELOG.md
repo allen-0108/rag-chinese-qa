@@ -2,7 +2,6 @@
 
 本專案遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/) 版本控制規範。
 
-## [100 - 202401-XX
 
 ### 新增功能
 - ✨ 支援多種文件格式：TXT、PDF、DOCX
@@ -29,7 +28,7 @@
 ## [未發布]
 
 ### 計劃功能
-- 🔮 支援更多文件格式（Excel、PowerPoint）
+- 🔮 支援更多文件格式
 - 🔮 多語言支援
 - 🔮 對話匯出功能
 - 🔮 自定義模型配置
