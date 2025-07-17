@@ -22,11 +22,11 @@
 #### 開發環境設置1. Fork 本專案
 2. 克隆您的 Fork：
    ```bash
-   git clone https://github.com/your-username/rag-chinese-qa.git
+   git clone https://github.com/allen-0108/rag-chinese-qa.git
    cd rag-chinese-qa
    ```3創建功能分支：
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/
    ```4安裝開發依賴：
    ```bash
    pip install -r requirements.txt
@@ -48,7 +48,7 @@
    git commit -m feat: 添加新功能描述"
    ```3推送到您的 Fork：
    ```bash
-   git push origin feature/your-feature-name
+   git push origin feature/
    ```
 4 發起 Pull Request
 
@@ -87,6 +87,6 @@ docs: 更新安裝說明
 
 如有問題，請透過以下方式聯絡：
 - GitHub Issues
-- Email: your-email@example.com
+- Email: allen82099010@gmail.com
 
 感謝您的貢獻！ 
