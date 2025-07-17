@@ -34,7 +34,7 @@
 
 ### 安裝步驟
 
-1. **克隆專案**
+1. **clone專案**
 ```bash
 git clone https://github.com/allen-0108/rag-chinese-qa.git
 cd rag-chinese-qa
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 # 參考: https://ollama.ai/download
 
 # 下載並啟動模型
-ollama pull phi4:custom
+ollama pull phi4 (可更改為自己的模型)
 ollama serve
 ```
 
@@ -110,7 +110,7 @@ CHUNK_SIZE = 300                       # 文本分割大小
 CHUNK_OVERLAP = 50                     # 分割重疊大小
 EMBEDDING_MODEL_NAME = BAAI/bge-base-zh # 中文 embedding 模型
 OLLAMA_MODEL_NAME = phi4:custom      # LLM 模型名稱
-OLLAMA_BASE_URL = http://localhost:11434 Ollama 服務地址
+OLLAMA_BASE_URL = http://localhost:11434 Ollama 服務地址(本地端)
 ```
 
 ### 自定義配置
@@ -148,7 +148,7 @@ OLLAMA_BASE_URL = http://localhost:11434 Ollama 服務地址
 
 ## 📝 更新日誌
 
-### v1.00 (202401XX)
+### v1.00 
 - ✅ 支援多種文件格式 (TXT, PDF, DOCX)
 - ✅ 智能中文對話系統
 - ✅ 對話歷史保留功能
@@ -157,7 +157,7 @@ OLLAMA_BASE_URL = http://localhost:11434 Ollama 服務地址
 
 ## 📄 授權條款
 
-本專案採用 MIT 授權條款 - 詳見 LICENSE(LICENSE) 文件
+本專案採用 MIT 授權條款 - 詳見 LICENSE文件
 
 ## 🙏 致謝
 
